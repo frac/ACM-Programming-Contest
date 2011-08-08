@@ -16,14 +16,14 @@ class PersimmonTest(unittest.TestCase):
 
     def test_min_property_empty(self):
         """
-        test to find a 1x1 property in a single line with a single tree
+        how many trees in for a 1x1 property in a 1x1 empty field 
         """
         field = [[0]]
         self.assertEquals(persimmon.property_finder(field, (1,1)), 0)
 
     def test_min_property_single_tree(self):
         """
-        test to find a 1x1 property in a single line with a single tree
+        how many trees in for a 1x1 property in a 1x1 single tree 
         """
         field = [[1]]
         self.assertEquals(persimmon.property_finder(field, (1,1)), 1)
