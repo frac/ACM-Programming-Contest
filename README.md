@@ -1,9 +1,5 @@
 ACM International Collegiate Programming Contest
-Japan Domestic, 2003-10-03
-
-
-
-Problem B
+================================================
 
 Get Many Persimmon Trees
 ------------------------
@@ -28,7 +24,15 @@ The input consists of multiple data sets. Each data set is given in the followin
     xN yN
     S T
 
-N is the number of persimmon trees, which is a positive integer less than 500. W and H are the width and the height of the entire field respectively. You can assume that both W and H are positive integers whose values are less than 100. For each i (1 <= i <= N), xi and yi are coordinates of the i-th persimmon tree in the grid. Note that the origin of each coordinate is 1. You can assume that 1 <= xi <= W and 1 <= yi <= H, and no two trees have the same positions. But you should not assume that the persimmon trees are sorted in some order according to their positions. Lastly, S and T are positive integers of the width and height respectively of the estate given by the lord. You can also assume that 1 <= S <= W and 1 <= T <= H.
+N is the number of persimmon trees, which is a positive integer less than 500. 
+
+W and H are the width and the height of the entire field respectively. You can assume that both W and H are positive integers whose values are less than 100. 
+
+For each i (1 <= i <= N), xi and yi are coordinates of the i-th persimmon tree in the grid. Note that the origin of each coordinate is 1. 
+
+You can assume that 1 <= xi <= W and 1 <= yi <= H, and no two trees have the same positions. But you should not assume that the persimmon trees are sorted in some order according to their positions. 
+
+Lastly, S and T are positive integers of the width and height respectively of the estate given by the lord. You can also assume that 1 <= S <= W and 1 <= T <= H.
 
 The end of the input is indicated by a line that solely contains a zero.
 Output
