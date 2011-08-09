@@ -1,6 +1,17 @@
 ACM International Collegiate Programming Contest
 ================================================
 
+
+Usage
+=====
+
+There's a sample in the sample directory (it was taken from the problem). In order to run just use:
+
+   cat sample_data/B1.txt | python persimmon.py
+
+Problem description
+===================
+
 Get Many Persimmon Trees
 ------------------------
 
@@ -76,5 +87,4 @@ Output for the Sample Input
 
     4
     3
-
 
